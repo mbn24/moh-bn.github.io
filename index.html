@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="تحميل تطبيقات Flutter الاحترافية – حاسبة المعدل، مدير المهام، متجر إلكتروني وغيرها" />
+  <title>تحميل تطبيقات Flutter | مطور محترف</title>
+  <!-- الخطوط والأيقونات -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- ملف التصميم الخارجي -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- شريط التنقل -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="#">🚀 <span>محمد</span> DEV</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">الرئيسية</a></li>
+          <li><a href="#apps">التطبيقات</a></li>
+          <li><a href="#contact">اتصال</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- قسم الترحيب الرئيسي (Hero) -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>أهلاً بك في <span class="gradient-text">فضاء التحميل</span></h1>
+        <p class="hero-subtitle">تطبيقات عصرية بتقنية Flutter – اختر ما يناسبك وانطلق</p>
+        <div class="hero-buttons">
+          <a href="#apps" class="btn btn-primary">استكشف التطبيقات <i class="fas fa-arrow-down"></i></a>
+          <a href="#contact" class="btn btn-outline">تواصل معي</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="floating-card">
+          <i class="fas fa-mobile-alt"></i>
+          <span>Flutter</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم التطبيقات (البطاقات) -->
+  <section id="apps" class="apps-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>📱 تطبيقاتي <span class="gradient-text">الاحترافية</span></h2>
+        <p>اضغط على أي تطبيق لتحميله مباشرة – روابط سريعة وآمنة</p>
+      </div>
+      <div class="apps-grid" id="appsGrid">
+        <!-- البطاقة 1: حاسبة المعدل -->
+        <div class="app-card" data-app-name="حاسبة المعدل LMD" data-app-link="https://upload.app/download/calcuate-rate/com.example.local_app/315db5368b8810e27c1157e9160fa3966191e97c3f8218458e79028eb799e4e0">
+          <div class="card-icon"><i class="fas fa-calculator"></i></div>
+          <h3>حاسبة المعدل LMD</h3>
+          <p>تطبيق لطلبة الإعلام الآلي، يدعم Exam, TD, TP, CM ويحسب المعدل بنظام 60/40.</p>
+          <div class="tech">
+            <span>Flutter</span>
+            <span>SQLite</span>
+            <span>GetX</span>
+          </div>
+          <div class="card-footer">
+            <span class="download-badge"><i class="fas fa-download"></i> تحميل</span>
+          </div>
+        </div>
+        <!-- البطاقة 2: مدير المهام -->
+        <div class="app-card" data-app-name="مدير المهام الذكي" data-app-link="https://github.com/yourusername/task_manager/releases/latest/download/task_manager.apk">
+          <div class="card-icon"><i class="fas fa-tasks"></i></div>
+          <h3>مدير المهام الذكي</h3>
+          <p>إدارة المشاريع والمهام اليومية مع إشعارات وتصنيفات متقدمة.</p>
+          <div class="tech">
+            <span>Flutter</span>
+            <span>Firebase</span>
+            <span>Riverpod</span>
+          </div>
+          <div class="card-footer">
+            <span class="download-badge"><i class="fas fa-download"></i> تحميل</span>
+          </div>
+        </div>
+        <!-- البطاقة 3: متجر إلكتروني -->
+        <div class="app-card" data-app-name="متجري الإلكتروني" data-app-link="https://github.com/yourusername/ecommerce_app/releases/latest/download/ecommerce.apk">
+          <div class="card-icon"><i class="fas fa-store"></i></div>
+          <h3>متجر إلكتروني</h3>
+          <p>تطبيق تسوق متكامل مع سلة مشتريات وبحث متقدم وبوابة دفع.</p>
+          <div class="tech">
+            <span>Flutter</span>
+            <span>REST API</span>
+            <span>Bloc</span>
+          </div>
+          <div class="card-footer">
+            <span class="download-badge"><i class="fas fa-download"></i> تحميل</span>
+          </div>
+        </div>
+        <!-- البطاقة 4: تطبيق إضافي (قادم) -->
+        <div class="app-card" data-app-name="تطبيق اللياقة" data-app-link="#">
+          <div class="card-icon"><i class="fas fa-heartbeat"></i></div>
+          <h3>مدرب اللياقة</h3>
+          <p>تطبيق لمتابعة التمارين والنظام الغذائي – قريباً.</p>
+          <div class="tech">
+            <span>Flutter</span>
+            <span>BLoC</span>
+            <span>Hive</span>
+          </div>
+          <div class="card-footer">
+            <span class="coming-soon">قريباً</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم الاتصال -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>📬 <span class="gradient-text">تواصل معي</span></h2>
+        <p>لأي استفسار أو اقتراح، لا تتردد في مراسلتي</p>
+      </div>
+      <div class="contact-wrapper">
+        <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="الاسم الكامل" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="5" placeholder="رسالتك..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">إرسال الرسالة <i class="fas fa-paper-plane"></i></button>
+          <div id="formStatus"></div>
+        </form>
+        <div class="contact-info">
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>الجزائر</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-envelope"></i>
+            <p>mohamed@example.com</p>
+          </div>
+          <div class="info-card">
+            <i class="fab fa-telegram"></i>
+            <p>@mohamed_dev</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تذييل الصفحة -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2026 – جميع الحقوق محفوظة | تصميم وبرمجة <span class="gradient-text">أ. محمد</span></p>
+        <div class="social-links">
+          <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://t.me/yourusername" target="_blank"><i class="fab fa-telegram"></i></a>
+          <a href="mailto:you@example.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- المودال (نافذة التحميل المنبثقة) -->
+  <div id="downloadModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-icon"><i class="fas fa-mobile-alt"></i></div>
+      <h2 id="modalAppName">اسم التطبيق</h2>
+      <p>اضغط على الزر لتنزيل أحدث إصدار – التطبيق آمن ومجاني</p>
+      <a href="#" id="modalDownloadLink" class="btn-download" download>
+        <i class="fas fa-download"></i> تحميل APK
+      </a>
+      <div class="qr-wrapper">
+        <img id="qrCodeImg" src="" alt="QR Code">
+      </div>
+      <small class="modal-note">يمكنك مسح الرمز لتحميل التطبيق مباشرة على هاتفك</small>
+    </div>
+  </div>
+
+  <!-- ملف JavaScript الخارجي -->
+  <script src="script.js"></script>
+</body>
+</html>
