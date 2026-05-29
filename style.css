@@ -407,7 +407,7 @@ body {
 form {
   flex: 1;
   background: rgba(255, 255, 255, 0.03);
-  padding: 2rem;
+  padding: 5rem;
   border-radius: 32px;
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -444,41 +444,11 @@ input:focus, textarea:focus {
   background: rgba(255, 255, 255, 0.03);
   padding: 1.5rem;
   border-radius: 28px;
-  text-align: center;
+  text-align: left;
   transition: 0.3s;
 }
+/* قسم Telegram */
 
-.info-card i {
-  font-size: 2rem;
-  color: #a5b4fc;
-  margin-bottom: 0.5rem;
-}
-
-/* ===== FOOTER ===== */
-.footer {
-  background: #070b14;
-  padding: 2rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.social-links a {
-  color: #cbd5e1;
-  margin-left: 1rem;
-  font-size: 1.3rem;
-  transition: 0.3s;
-}
-
-.social-links a:hover {
-  color: #a5b4fc;
-}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 992px) {
