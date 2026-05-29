@@ -448,7 +448,21 @@ input:focus, textarea:focus {
   transition: 0.3s;
 }
 /* قسم Telegram */
-
+.contact-social {
+  margin-top: 20px;
+  text-align: center;
+}
+.telegram-link {
+  color: #52c32f67;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.telegram-link {
+  text-decoration: underline;
+}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 992px) {
