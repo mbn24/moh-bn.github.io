@@ -55,7 +55,7 @@ body {
   font-size: 1.8rem;
   font-weight: 800;
   text-decoration: none;
-  background: linear-gradient(135deg, #fff, #a5b4fc);
+  background: linear-gradient(135deg, #233567, #a5b4fc);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -449,16 +449,18 @@ input:focus, textarea:focus {
 }
 /* قسم Telegram */
 .contact-social {
+  background-color: #0f1425;
+  padding: 3% ;
   margin-top: 20px;
   text-align: center;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  border-radius: 32px;
+  padding: 2rem 10rem;
 }
 .telegram-link {
   color: #52c32f67;
   font-size: 2rem;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .telegram-link {
   text-decoration: underline;
